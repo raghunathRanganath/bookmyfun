@@ -248,3 +248,15 @@ h1 {
     height: 75px;
 }
 
+.eventInfo {
+    font-size: 18px;
+    text-justify: inter-cluster;
+}
+
+/*.tableData {
+    border: 3px #000 double;
+}*/
+
+table, td {
+    border: 1px solid black;
+}
