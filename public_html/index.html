@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BookmyFun</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles/bmf_styles.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="js/bmf_scripts.js"></script>
+    </head>
+    <body>
+        <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id))
+                    return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+        <div id="wrapper">
+            <div id="container">
+                <div id="banner">
+                    <p id="bannerName1">BMFun</p>
+                    <img id="siteLogo" src="images/bmf_logo.png" width="105" height="130"/>
+                    <p id="bannerName2"> Events</p>
+                    <ul id="menu">
+                        <li id="button" onclick="openHome()">HOME</li>
+                        <li id="button" onclick="openAboutUs()">ABOUT US</li>
+                        <li id="button" onclick="openEvents()">EVENTS</li>
+                        <li id="button" onclick="openPreEvents()">PRE-EVENTS</li>
+                        <li id="button" onclick="openContact()">CONTACT</li>
+                    </ul>
+                </div>
+            </div>
+            <!--<hr class="hrClass">-->
+            <div id="iframe">
+                <div id="homePage">
+                    <h1 id="homeSiteDownText"> This page is under construction, Please visit back after sometime </h1>
+                    <div id="homePageContent" class="w3-content w3-section" style="max-width:100%">
+                        <img class="mySlides w3-animate-fading" src="images/carouselImages/bmf pic 1.jpg" style="width:100%">
+                        <img class="mySlides w3-animate-fading" src="images/carouselImages/bmf pic 2.jpg" style="width:100%">
+                        <img class="mySlides w3-animate-fading" src="images/carouselImages/bmf pic 3.jpg" style="width:100%">
+                        <img class="mySlides w3-animate-fading" src="images/carouselImages/bmf pic 4.jpg" style="width:100%">
+                        <img class="mySlides w3-animate-fading" src="images/carouselImages/bmf pic 5.jpg" style="width:100%">
+                        <img class="mySlides w3-animate-fading" src="images/carouselImages/bmf pic 6.jpg" style="width:100%">
+                    </div>
+                </div>
+
+                <div id="aboutUsPage">
+                    <h1 id="aboutUsSiteDownText"> This is About us page. <br> This page is under construction, Please visit back after sometime </h1>
+                    <div class="aboutUsLayout">
+                        <img id="raghu" class="ourImages" src="images/ourPics/raghu1.jpg" width="300" height="300" onmouseover="ourPicChange(this)" onmouseout="ourPicChangeAgain(this)" />
+                        <span class="aboutUsDescription">Raghu</span>
+                    </div>
+
+                    <div class="aboutUsLayout">
+                        <img id="praveen" class="ourImages" src="images/ourPics/praveen1.JPG" width="300" height="300" onmouseover="ourPicChange(this)" onmouseout="ourPicChangeAgain(this)">
+                        <span class="aboutUsDescription">Praveen</span>
+                    </div>
+
+                    <div class="aboutUsLayout">
+                        <img id="chethan" class="ourImages" src="images/ourPics/chethan1.jpg" width="300" height="300" onmouseover="ourPicChange(this)" onmouseout="ourPicChangeAgain(this)">
+                        <span class="aboutUsDescription">Chethan</span>
+                    </div>
+
+                    <div class="aboutUsLayout">
+                        <img id="kushal" class="ourImages" src="images/ourPics/kushal1.jpg" width="300" height="300" onmouseover="ourPicChange(this)" onmouseout="ourPicChangeAgain(this)">
+                        <span class="aboutUsDescription">Kushal</span>
+                    </div>
+
+                    <div class="aboutUsLayout">
+                        <img id="sachin" class="ourImages" src="images/ourPics/sachin1.jpg" width="300" height="300" onmouseover="ourPicChange(this)" onmouseout="ourPicChangeAgain(this)">
+                        <span class="aboutUsDescription">Sachin</span>
+                    </div>
+
+                    <div class="aboutUsLayout">
+                        <img id="harsha" class="ourImages" src="images/ourPics/harsha1.jpg" width="300" height="300" onmouseover="ourPicChange(this)" onmouseout="ourPicChangeAgain(this)">
+                        <span class="aboutUsDescription">Harsha</span>
+                    </div>
+                </div>
+
+                <div id="eventsPage">
+                    <h1 id="eventsSiteDownText"> Welcome to Events page. <br> <br> The page is under construction, Please visit back after sometime </h1>
+                    <div class="eventsPageContent" style="max-width:100%">
+                        <div class="eventsHeader">
+                            <h1>Ecstatic Tadiandamol</h1>
+                        </div>
+                        <br>
+                        <div id="leftContent" class="eventsContent" style="max-width: 49.5%; height: 600px">
+                            <div id="eventsPicContent" class="w3-content w3-section" style="max-width:100%">
+                                <img class="tadiandamolPicSlides w3-animate-fading" src="images/events/tadiandamol_1.jpg" style="width:100%">
+                                <img class="tadiandamolPicSlides w3-animate-fading" src="images/events/tadiandamol_2.jpg" style="width:100%">
+                                <img class="tadiandamolPicSlides w3-animate-fading" src="images/events/tadiandamol_3.jpg" style="width:100%">
+                            </div>
+                        </div>
+                        <div id="centerContent"><p> </p></div>
+                        <div id="rightContent" class="eventsContent" style="max-width: 49.5%">
+                            <ul>
+                            <li class="eventDescription">
+                                Tadiandamol or Thadiyandamol is the highest mountain of Kodagu district, 
+                                Karnataka, India. It is the fourth highest peak in Karnataka. It is located 
+                                Western Ghats range, and reaches an elevation of 1,748 m. The mountain has patches 
+                                of shola forests in the valleys.
+                            </li>
+                            <li class="eventDescription">
+                                The Nalaknad (also known as Nalnad - meaning 4 villages) palace at the foothills is 
+                                an important historical landmark. This was one of the landmarks mapped during the 
+                                Great Trigonometric Survey.
+                            </li>
+                            <li class="eventDescription">
+                                It is a place of interest for trekkers and naturalists. The climb to the top and 
+                                back can be completed as a day hike; camping is banned since December 2016.
+                                <a target="_blank" href="http://www.facebook.com/bookmyfun/events/">Click here</a> To know more about this trek.
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="eventsPageContent" style="max-width:100%">
+                        <div class="eventsHeader">
+                            <h1>Trek to Kudremukh</h1>
+                        </div>
+                        <br>
+                        <div id="leftContent" class="eventsContent" style="max-width: 49.5%; height: 600px">
+                            <div id="eventsPicContent" class="w3-content w3-section" style="max-width:100%">
+                                <img class="kudremukhPicSlides w3-animate-fading" src="images/events/kudremukh_1.jpg" style="width:100%">
+                                <img class="kudremukhPicSlides w3-animate-fading" src="images/events/kudremukh_2.jpg" style="width:100%">
+                                <img class="kudremukhPicSlides w3-animate-fading" src="images/events/kudremukh_3.jpg" style="width:100%">
+                            </div>
+                        </div>
+                        <div id="centerContent"><p> </p></div>
+                        <div id="rightContent" class="eventsContent" style="max-width: 49.5%">
+                            <ul>
+                            <li class="eventDescription">
+                                Kuduremukha is a mountain range and name of a peak located in Chikkamagaluru district,
+                                in Karnataka, India. It is also the name of a small hill station cum mining town 
+                                situated near the mountain, about 48 kilometres from Karkala and around 20 
+                                kilometres from Kalasa.
+                            </li>
+                            <li class="eventDescription">
+                                The name Kuduremukha literally means 'horse-face' (Kannada) and refers to a particular 
+                                picturesque view of a side of the mountain that resembles a horse's face. It was also 
+                                referred to as 'Samseparvata', historically since it was approached from Samse village.
+                            </li>
+                            <li class="eventDescription">
+                                Kuduremukh is Karnataka's 3rd highest peak after Mullayangiri and Baba Budangiri. 
+                                The nearest International Airport is at Mangalore which is at distance of 99 kilometres.
+                                <a target="_blank" href="http://www.facebook.com/bookmyfun/events/">Click here</a> To know more about this trek.
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="eventsPageContent" style="max-width:100%">
+                        <div class="eventsHeader">
+                            <h1>More to come. Stay tuned...</h1>
+                        </div>
+<!--                        <br>
+                        <div id="leftContent" class="eventsContent" style="max-width: 49.5%; height: 600px">
+                        </div>
+                        <div id="centerContent"><p> </p></div>
+                        <div id="rightContent" class="eventsContent" style="max-width: 49.5%">
+                        </div>-->
+                    </div>
+                </div>
+
+                <div id="preEventsPage">
+                    <h1 id="preEventsSiteDownText"> Welcome to Pre-Events page. <br> <br> The page is under construction, Please visit back after sometime </h1>
+                    <div class="w3-content w3-section" style="max-width:100%">
+                    </div>
+                </div>
+
+
+                <div id="contactPage">
+                    <h1 id="contactSiteDownText"> Welcome to Contact page. <br> <br> The page is under construction, Please visit back after sometime </h1>
+                    <div class="w3-content w3-section" style="max-width:100%">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--        <hr class="hrClass">-->
+        <footer>            
+            <div class="fb-like" data-href="https://facebook.com/bookmyfun" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+            <p>&copy; 2017 BMFun Events<p>
+        </footer>
+
+        <script>
+            var myIndex = 0;
+            var tdIndex = 0;
+            var kdIndex = 0;
+            homeCarousel();
+            eventsCarousel();
+
+            function homeCarousel() {
+                var i;
+                var homeCarouselImages = document.getElementsByClassName("mySlides");
+                
+                for (i = 0; i < homeCarouselImages.length; i++) {
+                    homeCarouselImages[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > homeCarouselImages.length) {
+                    myIndex = 1
+                }
+                homeCarouselImages[myIndex - 1].style.display = "block";
+                setTimeout(homeCarousel, 9000); // Change image every 9 seconds
+            }
+            
+            function eventsCarousel() {
+                var i;
+                var tadiandamolPicSlides = document.getElementsByClassName("tadiandamolPicSlides");
+                var kudremukhPicSlides = document.getElementsByClassName("kudremukhPicSlides");
+                
+                for (i = 0; i < tadiandamolPicSlides.length; i++) {
+                    tadiandamolPicSlides[i].style.display = "none";
+                }
+                for (i = 0; i < kudremukhPicSlides.length; i++) {
+                    kudremukhPicSlides[i].style.display = "none";
+                }
+                tdIndex++;
+                if (tdIndex > tadiandamolPicSlides.length) {
+                    tdIndex = 1
+                }
+                
+                kdIndex++;
+                if (kdIndex > tadiandamolPicSlides.length) {
+                    kdIndex = 1
+                }
+                
+                tadiandamolPicSlides[tdIndex - 1].style.display = "block";
+                kudremukhPicSlides[kdIndex - 1].style.display = "block";
+                setTimeout(eventsCarousel, 7000); // Change image every 7 seconds
+            }
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,250 @@
+body{
+    background-image: linear-gradient(rgba(255,255,255,0.65),rgba(255,255,255,0.65)), url(../images/siteBackgroundImage3.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    color:#000;
+    font-family:'Georgia', 'Trebuchet MS', serif;
+    font-size:12px;
+    margin: 0px auto;
+}
+
+#wrapper{
+    width:100%;
+    height:100%;
+}
+
+#container {
+    width: 100%;
+}
+
+#banner{
+    width:100%;
+    height:200px;
+    font-family:'Segoe UI', serif;
+    font-size:72px;
+    color: #000;
+    text-align: left;
+}
+
+#siteLogo {  
+    margin-right: -25px;
+    margin-left: -25px;
+    margin-top: 15px;
+    margin-bottom: -35px;
+}
+
+#bannerName1 {
+    margin-top: 30px;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-left: 40px;
+}
+
+#bannerName2 {
+    margin-top: 30px;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+#menu{
+    margin: 0px auto;
+    float: right;
+    display: inline-block;
+    width: 60%;
+    padding-top: 65px;
+}
+
+#button{
+    display: inline-block;
+    color: #000;
+    font-family: 'Segoe UI', serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 1%;
+    width: 17.5%;
+}
+
+#button:hover {
+    color: #000;
+    font-size:22px;
+    text-decoration: underline;
+    transition: all 1000ms ease;
+    
+}
+
+#button:not(:hover) {
+    font-size:18px;
+    transition: all 1000ms ease;
+    color: #000;
+}
+
+#button ul li{
+    text-decoration: none;
+}
+
+#iframe div{
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+hr.hrClass {
+    height: 3px;
+    color: #000;
+    margin: 0px auto;
+}
+
+footer {
+    color: #000;
+    font-family:'Segoe UI', serif;
+    font-size:18px;
+    font-weight: bold;
+    height: 100%;
+    padding: 5px 5px 5px 5px;
+    margin: auto;
+}
+
+footer div {
+    display: inline-block;
+    float: left;
+}
+
+footer p {
+    display: inline-block;
+    float: right;
+}
+h1 {
+    font-family:'Segoe UI', serif;
+}
+
+#homeSiteDownText {
+    text-align: center;
+    padding-top: 100px;
+    margin: 0px auto;
+    display: none;
+}
+
+#aboutUsSiteDownText {
+    text-align: center;
+    padding-top: 100px;
+    display: none;
+}
+
+#eventsSiteDownText {
+    text-align: center;
+    padding-top: 100px;
+    display: none;
+}
+
+#preEventsSiteDownText {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#contactSiteDownText {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#underConstructionImage {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+
+.mySlides {display:none;margin-top: -17px;}
+
+#homePage {
+    margin: 0px auto;
+}
+
+#aboutUsPage {
+    display: none;
+    text-align: center;
+}
+
+#eventsPage {
+    display: none;
+    text-align: center;
+    height: 100%;
+}
+
+#preEventsPage {
+    display: none;
+    text-align: center;
+    height: 100%;
+}
+
+#contactPage {
+    display: none;
+    text-align: center;
+    height: 100%;
+}
+
+.aboutUsLayout {
+    max-width: 750px;
+    max-height: 350px;
+    display: inline-block;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.ourImages {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.aboutUsDescription {
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 320px;
+    height: 250px;
+    vertical-align: central;
+    color: #000;
+    /*font-weight: bold;*/
+}
+
+.eventsContent {
+    display: inline-block;
+}
+
+#leftContent {
+    float: left;
+    padding-left: 10px;
+    height: 650px;
+    border-spacing: 5px;
+}
+
+#centerContent {
+    width: 1%;
+}
+
+#rightContent {
+    float: right;
+    padding-right: 10px;
+    background: rgba(221,227,233,0.4);
+}
+
+.eventsPageContent {
+    display: inline-block;
+}
+.eventsPicSlides {
+    display: none;
+}
+
+.eventDescription {
+    text-align: justify;
+    text-justify: inter-cluster;
+    font-size: 22px;
+}
+
+.eventsHeader {
+    width: 100%;
+    height: 75px;
+}
+
