@@ -7,8 +7,8 @@
         <link rel="stylesheet" type="text/css" href="styles/bmf_styles.css">
         <script src="js/bmf_scripts.js"></script>
     </head>
-    <body>
-        <div class="eventInfo">
+    <body onload="checkParentCall()">
+        <div class="eventInfo" id="eventInfo">
             <h3>Please find below the brief summary of this event</h3>
             <ol>
                 <li>We start from Bangalore on Friday night and reach Coorg between 5 and 6 AM on Saturday morning.</li>
@@ -31,7 +31,7 @@
                 <li>Pack light. Carry only what is necessary.</li>
                 <li>Expect leeches in the monsoon and post-monsoon seasons.</li>
             </ul>
-            
+
             <h3>Summary</h3>
             <table class="tableData">
                 <tr>
@@ -63,8 +63,35 @@
                     <td>14 kms approx</td>
                 </tr>
             </table>
-            
+            <br>
             For more information click <a target="_blank" href="https://www.facebook.com/events/1961329557413842/?active_tab=discussion">here</a>
+            <br><br>
+            <input class="clickButton" type="button" onclick="bookTicket()" value="Buy Ticket" name="Buy Ticket"/>
+        </div>
+
+        <div class="regForm" id="regForm">
+            First Name: <input type="text" name="firstName" placeholder="Your First Name" id="firstName" required/>
+            <br><br>
+            Last Name: <input type="text" name="lastName" placeholder="Your Last Name" id="lastName" required/>
+            <br><br>
+            Mobile Number: <input type="tel" name="modNumber" placeholder="Your 10 digit phone number" id="phoneNumber" required/>
+            <br><br>
+            Email ID: <input type="email" placeholder="username@host.com"id="emailId" required/>
+            <br><br>
+            <button onclick="registerUser()"/>Buy Ticket</button>
+            
+        <p> <h3>Payment details</h3> Account number : 00771610282221 <br> Bank Name : HDFC Bank <br> IFSC Code : HDC0000077 </p>
+    </div>
+
+    <div class="regSuccess" id="regSuccess">
+        <h3>Hurray, Successfully Registered!!</h3>
+        <p>An Email window would be opened now, please click on "Send" to complete the registration process</p>
+        <p>Add this account as a beneficiary and transfer the ticket amount<br> Account number : 00771610282221 <br> Bank Name : HDFC Bank <br> IFSC Code : HDC0000077 </p>
+        <p>Please quote this registration number in your amount transfer description</p>
+        <p>Note : This uniquely generated reference number should be same in your registration Email and amount transfer description</p>
+        <input type="text" id="regNumber" value=""/><br><br>
+        <button onclick="backToEvent()"/>Back to Event</button>
+        <button onclick="backToHome()"/>Back to Home</button>
     </div>
     <footer>            
         <div class="fb-like" data-href="https://facebook.com/bookmyfun" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>

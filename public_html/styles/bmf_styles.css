@@ -260,3 +260,29 @@ h1 {
 table, td {
     border: 1px solid black;
 }
+
+.clickButton {
+    text-decoration: none;
+    border: none;
+    background-color: #ff0000;
+    color: #fff;
+    width: 100px;
+    height: 35px;
+    padding: : 20px;
+    font-size: 18px;
+}
+
+.regForm {
+    display: none;
+    margin: 50px;
+    font-size: 24px;
+    width: 100%;
+}
+
+.regSuccess {
+    display: none;
+    margin: 50px;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
